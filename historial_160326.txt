@@ -1,0 +1,53 @@
+    1  export HOME="C:\Users\aroaga\Desktop\github"
+    2  pwd
+    3  ls
+    4  git --version
+    5  git config --global user.name "AroaGA"
+    6  git config --global user.email "argaan2006@gmail.com"
+    7  git config --list
+    8  git config --global init.defaultBranch main
+    9  git init
+   10  git status
+   11  touch index.html
+   12  vim index.html 
+   13  git status
+   14  get add index.html
+   15  git add index.html
+   16  git status
+   17  touch styles.css
+   18  git status
+   19  git -m "primer envio"
+   20  git commit -m "primer envio"
+   21  git status
+   22  clear
+   23  git log
+   24  git status
+   25  git add .
+   26  git status
+   27  git commit -m "segundo envio"
+   28  git log
+   29  ls -la
+   30  ls .git
+   31  ls -la .git
+   32  touch .gitignore
+   33  nano .gitignore
+   34  touch readme.txt
+   35  ls -ls
+   36  ls -la
+   37  git status
+   38  git add .gitignore
+   39  git commit -m "enviando .gitignore"
+   40  clear
+   41  git status
+   42  touch instrucciones.txt
+   43  git status
+   44  git add README.md
+   45  touch README.md
+   46  git add README.md
+   47  git commit -m "first commit"
+   48  git remote add origin https://github.com/argaan2006-lang/contornos_tut_github25-26.git
+   49  git push -u origin main
+   50  git log
+   51  git fetch origin main
+   52   git pull origin main
+   53  history >> historial_160326.txt
