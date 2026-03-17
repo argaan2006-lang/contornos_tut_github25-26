@@ -44,10 +44,21 @@
    44  git add README.md
    45  touch README.md
    46  git add README.md
+--METER LOS FICHEROS DENTRO DE LA PAGINA DE GITHUB--
    47  git commit -m "first commit"
    48  git remote add origin https://github.com/argaan2006-lang/contornos_tut_github25-26.git
    49  git push -u origin main
    50  git log
    51  git fetch origin main
-   52   git pull origin main
+   52  git pull origin main
    53  history >> historial_160326.txt
+
+
+--EXPLICACION DE LOS COMANDOS--
+status -> nos da información sobre los ficheros que se pueden subir
+add -> para añadir los ficheros
+commit -> añade definitivamente los ficheros
+remote add -> para añadir a la pagina web
+push -> sacar del main
+log -> enseña todos los commits ejecutados
+pull -> obtener del main
